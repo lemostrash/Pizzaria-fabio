@@ -30,16 +30,15 @@ header {
 }
 
 nav {
-  position: fixed;
+  position:fixed;
   top: 0;
   height: 100px;
   width: 100%;
-
+  z-index: 1;
   background-color: #E8854E;
 }
 
 nav::after {
-  position: fixed;
   clear: both;
   content: "";
   display: block;
@@ -89,7 +88,7 @@ nav::after {
   border-radius: 50px;
   margin-top: 10%;
   margin-left: 35%;
-  overflow: hidden;
+  overflow:hidden;
   height: 400px;
   width: 500px;
 }
@@ -156,6 +155,7 @@ nav::after {
   margin-top: 2%;
   margin-left: 5%;
 }
+
 
 .informacoes {
   padding: 10px 10px;
@@ -354,3 +354,4 @@ footer .wrapper:after {
 	font-weight: 600;
 	margin-top: 40px;
 }
+
